@@ -1,0 +1,35 @@
+object Form1: TForm1
+  Left = 395
+  Height = 427
+  Top = 252
+  Width = 710
+  Caption = 'BGRAJSONStyles'
+  ClientHeight = 427
+  ClientWidth = 710
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '2.1.0.0'
+  object BGRAGraphicControl1: TBGRAGraphicControl
+    Left = 8
+    Height = 335
+    Top = 8
+    Width = 691
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    OnRedraw = BGRAGraphicControl1Redraw
+    Color = clWhite
+    ColorOpacity = 128
+    Alignment = taCenter
+    Caption = 'BGRAGraphicControl1'
+  end
+  object ListBox1: TListBox
+    Left = 8
+    Height = 66
+    Top = 351
+    Width = 691
+    Anchors = [akLeft, akRight, akBottom]
+    ItemHeight = 0
+    OnSelectionChange = ListBox1SelectionChange
+    TabOrder = 0
+  end
+end

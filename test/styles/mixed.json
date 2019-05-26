@@ -1,0 +1,13 @@
+{
+    "width": "100%",
+    "height": "100%",
+    "border-width": "10",
+    "background-color": "rgba(128, 64, 72, 0.1)",
+    "border-color": "rgba(0,0,0,0.7)",
+    "border-x-radius": "20px",
+    "border-y-radius": "20px",
+    "border-top-left-style": "rounded",
+    "border-top-right-style": "rounded",
+    "border-bottom-left-style": "bevel",
+    "border-bottom-right-style": "square"
+}
